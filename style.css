@@ -1,0 +1,148 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+	font-family: Arial, sans-serif;
+    background-color: linear-gradient(rgb(229, 226, 218), rgb(220, 217, 208));
+}
+
+header {
+	background-color: #ffffff;
+	color: #fff;
+	padding: 20px;
+}
+
+h1{
+	color:#000000;
+    font-size: 250%;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background:#ececec;
+}
+
+nav li:last-child {
+	margin-right: 0;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	border: 1px solid #76767670;
+	border-radius: 5px;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background: linear-gradient(to bottom right, rgb(231, 231, 231), rgb(215, 215, 215));
+}
+
+section {
+	border-radius: 13px;
+	width: 45%;
+	background: rgb(230, 251, 253);
+	padding: 20px;
+	margin-bottom: 30px;
+	box-shadow: 0px 0px 10px rgba(225, 224, 220, 0.2);
+}
+
+section h2 {
+	margin-top: 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 20px 0;
+}
+
+footer {
+	border-radius: 13px;
+	background: linear-gradient(rgb(232, 220, 92), rgb(251, 203, 60));
+	color: #ffffff;
+	padding: 20px;
+	text-align: center;
+}
+
+hr{
+	visibility: hidden;
+}
+
+.logo{
+	width: 20%;
+	height: auto;
+}
+
+.social-media {
+	margin-bottom: 20px;
+}
+
+.social-media a {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.social-media a:last-child {
+	margin-right: 0;
+}
+
+.joli-paragraphe {
+	color: #746d9e;
+	background: linear-gradient(to bottom right, rgb(231, 231, 231), rgb(215, 215, 215));
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: #f9f9f9;
+	border: 1px solid #ccc;
+	border-radius: 13px;
+}
+
+.support {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.support img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.support p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.support a {
+    display: flex;
+    align-items: center;
+    background-color: #0070ba;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.support a:hover {
+    background-color: #004c82;
+}
