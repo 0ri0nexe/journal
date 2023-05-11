@@ -29,7 +29,7 @@ nav li {
 	margin-right: 20px;
 	border: 1px solid #ccc;
 	border-radius: 5px;
-	background:#ececec;
+	background:#ffbe3d;
 }
 
 nav li:last-child {
@@ -104,7 +104,7 @@ hr{
 }
 
 .joli-paragraphe {
-	color: #746d9e;
+	color: #4e4a69;
 	background: linear-gradient(to bottom right, rgb(231, 231, 231), rgb(215, 215, 215));
 	font-size: 18px;
 	line-height: 1.5;
